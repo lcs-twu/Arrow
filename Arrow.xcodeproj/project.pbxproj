@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		81EC80412AEAE2C600AEA524 /* ArrowApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EC80402AEAE2C600AEA524 /* ArrowApp.swift */; };
-		81EC80432AEAE2C600AEA524 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EC80422AEAE2C600AEA524 /* ContentView.swift */; };
+		81EC80432AEAE2C600AEA524 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EC80422AEAE2C600AEA524 /* MainView.swift */; };
 		81EC80452AEAE2C800AEA524 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81EC80442AEAE2C800AEA524 /* Assets.xcassets */; };
 		81EC80482AEAE2C800AEA524 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81EC80472AEAE2C800AEA524 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,7 +16,7 @@
 /* Begin PBXFileReference section */
 		81EC803D2AEAE2C600AEA524 /* Arrow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Arrow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81EC80402AEAE2C600AEA524 /* ArrowApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrowApp.swift; sourceTree = "<group>"; };
-		81EC80422AEAE2C600AEA524 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		81EC80422AEAE2C600AEA524 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		81EC80442AEAE2C800AEA524 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81EC80472AEAE2C800AEA524 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		81EC80492AEAE2C800AEA524 /* Arrow.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Arrow.entitlements; sourceTree = "<group>"; };
@@ -53,7 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				81EC80402AEAE2C600AEA524 /* ArrowApp.swift */,
-				81EC80422AEAE2C600AEA524 /* ContentView.swift */,
+				81EC80422AEAE2C600AEA524 /* MainView.swift */,
 				81EC80442AEAE2C800AEA524 /* Assets.xcassets */,
 				81EC80492AEAE2C800AEA524 /* Arrow.entitlements */,
 				81EC80462AEAE2C800AEA524 /* Preview Content */,
@@ -139,7 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81EC80432AEAE2C600AEA524 /* ContentView.swift in Sources */,
+				81EC80432AEAE2C600AEA524 /* MainView.swift in Sources */,
 				81EC80412AEAE2C600AEA524 /* ArrowApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
