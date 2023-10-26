@@ -26,7 +26,7 @@ struct Arrow: Shape {
         //add fifth line
         path.addLine(to: CGPoint(x: rect.maxX/3*2, y: rect.minY))
         //add sixth line
-        path.addLine(to: CGPoint(x: rect.maxX/3, y: rect.maxY/3))
+        path.addLine(to: CGPoint(x: rect.maxX/3*2, y: rect.maxY/3))
         //add seventh line
         path.addLine(to: CGPoint(x: rect.minX, y: rect.maxY/3))
         //add eighth line
